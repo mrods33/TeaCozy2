@@ -11,9 +11,24 @@ body {
 header {
   display: flex;
   border-bottom: 1px solid seashell;
-
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
 }
 
-nav span {
+.logo img {
+  height: 50px;
+  padding: 10px;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+span a  {
   text-decoration: underline;
+  color: seashell;
+  padding: 10px;
 }
