@@ -32,3 +32,36 @@ span a  {
   color: seashell;
   padding: 10px;
 }
+
+/* Main Content */
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  position: relative;
+  display: flex;
+  top: 70px;
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
