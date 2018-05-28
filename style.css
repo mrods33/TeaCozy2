@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: black;
+  background-color: #000;
   color: seashell;
   font-family: Helvetica;
   font-size: 22px;
@@ -132,5 +132,19 @@ h2, h4, h3 {
 }
 
 #locations h2 {
-  padding: 15px;
+  padding: 0 15px 20px 25px;
+}
+
+/* Contact */
+
+.contact {
+  height: 200px;
+  margin-top: 20px;
+}
+
+/* footer */
+
+footer h5 {
+  text-align: left;
+  margin-left: 20px;
 }
